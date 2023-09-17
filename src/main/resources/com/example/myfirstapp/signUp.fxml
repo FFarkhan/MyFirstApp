@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" style="-fx-background-color: #2e3348;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstapp.SignUpController">
+    <children>
+        <AnchorPane layoutY="120.0" prefHeight="481.0" prefWidth="900.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <TextField fx:id="signUpNameField" layoutX="41.0" layoutY="53.0" prefHeight="42.0" prefWidth="389.0" promptText="Name" />
+                <PasswordField fx:id="password_field" layoutX="467.0" layoutY="139.0" prefHeight="42.0" prefWidth="389.0" promptText="Password..." />
+                <Button fx:id="SignUpButton" layoutX="335.0" layoutY="330.0" mnemonicParsing="false" prefHeight="75.0" prefWidth="230.0" text="Registration">
+                    <font>
+                        <Font name="Perpetua" size="40.0" />
+                    </font>
+                </Button>
+            <TextField fx:id="surnameSignUpField" layoutX="467.0" layoutY="53.0" prefHeight="42.0" prefWidth="389.0" promptText="Surname" />
+            <TextField fx:id="login_field2" layoutX="41.0" layoutY="139.0" prefHeight="42.0" prefWidth="389.0" promptText="Login..." />
+            <TextField fx:id="countrySignUpField" layoutX="258.0" layoutY="248.0" prefHeight="42.0" prefWidth="389.0" promptText="Country" />
+            <RadioButton fx:id="signUpCheckBoxMale" layoutX="377.0" layoutY="207.0" mnemonicParsing="false" text="Male">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="signUpCheckBoxFemale" layoutX="467.0" layoutY="207.0" mnemonicParsing="false" text="Female">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </RadioButton>
+            </children>
+        </AnchorPane>
+        <Label layoutX="288.0" layoutY="28.0" prefHeight="68.0" prefWidth="324.0" text="MyFirstApp" textFill="#e80000">
+            <font>
+                <Font name="Forte" size="61.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
